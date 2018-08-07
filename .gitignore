@@ -20,15 +20,9 @@
 *.rar
 
 .idea
-.idea/
-.idea/*
-.idea/*.*
 
 target
-target/
-target/*
 
-.iml
 *.iml
 
 
