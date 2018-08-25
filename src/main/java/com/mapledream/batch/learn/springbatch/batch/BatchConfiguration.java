@@ -80,4 +80,12 @@ public class BatchConfiguration {
                 .build();
     }
     // end::jobstep[]
+
+    @Bean
+    public Step stepOne(){
+        return stepBuilderFactory.get("step1")
+                .tasklet(new MyTaskOne())
+                .build();
+    }
+
 }
